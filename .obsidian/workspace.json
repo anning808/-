@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "c8e5657e79f40176",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f86a9ae0f1db175",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f66609dfa53a08a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "日常指令等收藏/github记录/上传记录.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "49dba0df7889ac19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "日常指令等收藏/github记录/上传记录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a26ec4d152c84c10",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc7dc6254094e930",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26105a901d0da5f5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "451a1855b655a2df",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ec85e3c0efe62340",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c8c6909de3c4179c",
+    "type": "split",
+    "children": [
+      {
+        "id": "e63b854b51574e42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63d48bafa43d18f9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "日常指令等收藏/github记录/上传记录.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ef4f88c43fa5e664",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "日常指令等收藏/github记录/上传记录.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c9e99cdd94fe77d1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5ef176c12760b924",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "日常指令等收藏/github记录/上传记录.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "0f66609dfa53a08a",
+  "lastOpenFiles": [
+    "2024-06-12.md",
+    "日常指令等收藏/ubuntu的快捷指令/ubuntu中kazam视频格式转换.md",
+    "日常指令等收藏/github记录/上传记录.md",
+    "日常指令等收藏/github记录/官方文档.md",
+    "日常指令等收藏/github记录/git文档摘要.md",
+    "日常指令等收藏/github记录/个人全局环境配置.md",
+    "日常指令等收藏/ros操作相关/Rviz 电影摄影师.md",
+    "日常指令等收藏/github记录",
+    "日常指令等收藏/ros操作相关/未命名 1.md",
+    "日常指令等收藏/ros操作相关",
+    "深度学习记录/代码记录.md",
+    "环境配置记录/Learning High-Speed Flight in the Wild 环境安装.md",
+    "深度学习记录",
+    "日常指令等收藏/vscode的配置/settings.json.md",
+    "环境配置记录",
+    "日常指令等收藏/ubuntu的快捷指令/bashrc的配置模板和缩写示例.md",
+    "日常指令等收藏/无人机仿真相关/gazebo的环境配置.md",
+    "日常指令等收藏/无人机仿真相关/连接px4仿真指令.md",
+    "日常指令等收藏/vscode的配置",
+    "日常指令等收藏/ubuntu的快捷指令",
+    "日常指令等收藏/无人机仿真相关",
+    "日常指令等收藏"
+  ]
+}
