@@ -19,8 +19,8 @@ sudo ln -s /usr/local/cuda-11.1 /usr/local/cuda
 然后，需要登录，选择Sign in（如已有帐号自动忽略）  
 注册后，打开页面：
 ```
-sudo dpkg -i libcudnn8_8.0.5.39-1+cuda10.1_amd64.deb                       sudo dpkg -i libcudnn8-dev_8.0.5.39-1+cuda10.1_amd64.deb
-sudo dpkg -i libcudnn8-samples_8.0.5.39-1+cuda10.1_amd64.deb
+sudo dpkg -i libcudnn8_8.0.5.39-1+cuda11.1_amd64.deb                       sudo sudo dpkg -i libcudnn8-dev_8.0.5.39-1+cuda11.1_amd64.deb
+sudo dpkg -i libcudnn8-samples_8.0.5.39-1+cuda11.1_amd64.deb
 ```
 确认cudnn安装成功
 通过上步骤的安装，得到了cudnn的安装路径：/usr/include/
@@ -44,5 +44,5 @@ make clean && make
 最后测试：
 
 ```
-cat /usr/local/cuda-11.1/include/cudnn_version.h | grep CUDNN_MAJOR -A  2
+cat /usr/local/cuda/include/cudnn_version.h | grep CUDNN_MAJOR -A  2
 ```
