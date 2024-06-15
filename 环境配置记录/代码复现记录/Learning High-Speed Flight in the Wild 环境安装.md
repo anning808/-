@@ -52,9 +52,7 @@ sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-7 100
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 100
 ```
 
-![](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw== "点击并拖拽以移动")
-
-杂项：这些依赖提前装好，编译可以省很多事情
+#### 杂项：这些依赖提前装好，编译可以省很多事情
 
 ```
 #依赖
@@ -69,7 +67,7 @@ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 150
 sudo apt-get install ros-noetic-octomap-msgs ros-noetic-joy -y
 ```
 
-安装mavros(编译报错geographic时装，需要清除后重新编译)
+安装mavros(编译报错geographic时装，需要清除后重新编译)//需要vpn
 ```
 sudo apt-get install ros-noetic-mavros
 cd /opt/ros/noetic/lib/mavros
@@ -230,9 +228,12 @@ dependencies:
       - zipp==3.15.0
 prefix: /home/b/anaconda3/envs/tf_24
 ```
+
+建一个environment.yml文件把上述内容复制进去，使用conda直接建立环境。
 ```
 conda env create -f environment.yml
 ```
+理论上编译和环境就都完成了。
 ## Let's Fly!
 
 [](https://github.com/uzh-rpg/agile_autonomy#lets-fly)
@@ -258,4 +259,4 @@ python test_trajectories.py --settings_file=config/test_settings.yaml
 ```
 
 # 运行 test_trajectories.py 时，“PlanLearning”对象没有属性“XXX”
-基本上就是 cuda cudnn没配置好 要和机子显卡还有tensflow对应
+基本上就是 cuda cudnn没配置好 要和机子显卡还有tensflow对应 -需要重新改。 
