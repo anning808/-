@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日常指令等收藏/无人机仿真相关/日志查看.md",
+                "file": "环境配置记录/无人机仿真相关/日志查看.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,13 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/系统部分环境搭建.md",
+                "file": "环境配置记录/代码复现记录/Learning High-Speed Flight in the Wild 环境安装.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/系统部分环境搭建.md",
+                "file": "环境配置记录/代码复现记录/Learning High-Speed Flight in the Wild 环境安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/系统部分环境搭建.md",
+                "file": "环境配置记录/代码复现记录/Learning High-Speed Flight in the Wild 环境安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/系统部分环境搭建.md"
+                "file": "环境配置记录/代码复现记录/Learning High-Speed Flight in the Wild 环境安装.md"
               }
             }
           }
@@ -172,22 +173,25 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7bc36a5010f53ef6",
+  "active": "13140382243e47da",
   "lastOpenFiles": [
-    "日常指令等收藏/无人机仿真相关/日志查看.md",
-    "日常指令等收藏/无人机仿真相关/px4开发环境配置.md",
-    "日常指令等收藏/无人机仿真相关/gazebo的环境配置.md",
-    "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/cuda11 cudnn8安装.md",
-    "环境配置记录/Learning High-Speed Flight in the Wild 环境安装.md",
+    "环境配置记录/无人机仿真相关/连接px4仿真指令.md",
+    "环境配置记录/代码复现记录",
+    "环境配置记录/无人机仿真相关/日志查看.md",
+    "环境配置记录/无人机仿真相关/px4开发环境配置.md",
+    "环境配置记录/无人机仿真相关/gazebo的环境配置.md",
+    "深度学习记录/代码记录.md",
+    "环境配置记录/代码复现记录/Learning High-Speed Flight in the Wild 环境安装.md",
+    "2024-06-12.md",
     "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/系统部分环境搭建.md",
-    "日常指令等收藏/无人机仿真相关/连接px4仿真指令.md",
+    "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/cuda11 cudnn8安装.md",
     "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/nvidia-smi安装失效.md",
     "日常指令等收藏/github记录/上传记录.md",
     "日常指令等收藏/github记录/git文档摘要.md",
-    "日常指令等收藏/ubuntu的快捷指令/Ubuntu更换阿里云软件源.md",
+    "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/Ubuntu更换阿里云软件源.md",
     "日常指令等收藏/ubuntu的快捷指令/ubuntu中kazam视频格式转换.md",
     "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/Ubuntu20.04的安装.md",
-    "日常指令等收藏/ubuntu的快捷指令/在ubuntu进行双屏显示.md",
+    "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/在ubuntu进行双屏显示.md",
     "日常指令等收藏/ubuntu的快捷指令/Ubuntu20.04更换系统默认启动内核.md",
     "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/ubuntu 20.04中文输入法安装.md",
     "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/pic/Pasted image 20240612142318.png",
@@ -198,20 +202,17 @@
     "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/pic/Pasted image 20240612142417.png",
     "日常指令等收藏/ubuntu的快捷指令/bashrc的配置模板和缩写示例.md",
     "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji",
-    "2024-06-12.md",
     "日常指令等收藏/github记录/官方文档.md",
     "日常指令等收藏/github记录/个人全局环境配置.md",
     "日常指令等收藏/ros操作相关/Rviz 电影摄影师.md",
     "日常指令等收藏/github记录",
     "日常指令等收藏/ros操作相关/未命名 1.md",
     "日常指令等收藏/ros操作相关",
-    "深度学习记录/代码记录.md",
     "深度学习记录",
     "日常指令等收藏/vscode的配置/settings.json.md",
     "环境配置记录",
     "日常指令等收藏/vscode的配置",
     "日常指令等收藏/ubuntu的快捷指令",
-    "日常指令等收藏/无人机仿真相关",
-    "日常指令等收藏"
+    "环境配置记录/无人机仿真相关"
   ]
 }

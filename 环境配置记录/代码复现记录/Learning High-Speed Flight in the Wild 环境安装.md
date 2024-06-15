@@ -1,6 +1,6 @@
 ​官方安装部分
 https://github.com/uzh-rpg/agile_autonomy
-###  安装记录：
+### 安装记录：
 
 几个参考链接：
 
@@ -16,9 +16,9 @@ https://github.com/uzh-rpg/agile_autonomy
 
 在ubuntu18和20都安装了几遍，有一定的经验。建议还是ubuntu20安装。为了安装好能正确运行避免重装，最好确定好cuda版本之后再开始安装。
 
-备注一点，有一台电脑
-
-##### 先安装Open3D源码安装C++版本的open3D， v0.9.0. 由于采用gcc6编译，因此不用最新版本v0.13.0的open3D。
+我遇见的几个问题直接放在最后。
+##### 先安装Open3D
+源码安装C++版本的open3D， v0.9.0. 看完git的issue中最终选择比较稳定版本。装过其他版本，要改很多路径。为了直接能用
 
 ```
 git clone --recursive https://github.com/intel-isl/Open3D
@@ -29,7 +29,7 @@ git submodule update --init --recursive
 # 切换到指定版本
 git checkout  v0.9.0
 
-# On Ubuntu
+# On Ubuntu   install_deps_ubuntu.sh的路径可能不一样搜索一下去执行
 util/install_deps_ubuntu.sh
 
 mkdir build
@@ -54,12 +54,13 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 100
 
 ![](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw== "点击并拖拽以移动")
 
-杂项：
+杂项：这些依赖提前装好，编译可以省很多事情
 
 ```
 #依赖
 sudo apt install python3-catkin-tools python3-osrf-pycommon python3-empy -y
 sudo apt-get install python3-vcstool libsdl2-dev -y
+sudo apt-get install libsdl-image1.2-dev libsdl1.2-dev -y
 # 如果有python2的环境，首先设置软连接，切换到python3
 # 设置软链接
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 100
@@ -75,9 +76,7 @@ cd /opt/ros/noetic/lib/mavros
 sudo ./install_geographiclib_datasets.sh
 ```
 
-报错Could NOT find SDL_image (missing: SDL_IMAGE_LIBRARIES
-  SDL_IMAGE_INCLUDE_DIRS)
-sudo apt-get install libsdl-image1.2-dev libsdl1.2-dev -y
+ 
 
 ## conda创建
 我使用这个环境成功了，
@@ -90,7 +89,7 @@ dependencies:
   - _openmp_mutex=5.1=1_gnu
   - ca-certificates=2024.3.11=h06a4308_0
   - certifi=2022.12.7=py37h06a4308_0
-  - cudatoolkit=11.1.221=h6bb024c_0
+  - cudatoolkit=11.0.221=h6bb024c_0
   - ld_impl_linux-64=2.38=h1181459_1
   - libedit=3.1.20230828=h5eee18b_0
   - libffi=3.2.1=hf484d3e_1007
