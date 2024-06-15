@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/系统部分环境搭建.md",
+                "file": "环境配置记录/代码复现记录/Learning High-Speed Flight in the Wild 环境安装.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,38 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日常指令等收藏/ubuntu的快捷指令/cuda相关深度学习环境配置/cuda11 cudnn8安装.md",
+                "file": "环境配置记录/代码复现记录/Learning High-Speed Flight in the Wild 环境安装.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "52422eee882d3889",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "295fafe031134225",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "d39466eaa1811ccc",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日常指令等收藏/ubuntu的快捷指令/cuda相关深度学习环境配置/cuda11 cudnn8安装.md",
+                "file": "环境配置记录/代码复现记录/Learning High-Speed Flight in the Wild 环境安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日常指令等收藏/ubuntu的快捷指令/cuda相关深度学习环境配置/cuda11 cudnn8安装.md",
+                "file": "环境配置记录/代码复现记录/Learning High-Speed Flight in the Wild 环境安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日常指令等收藏/ubuntu的快捷指令/cuda相关深度学习环境配置/cuda11 cudnn8安装.md"
+                "file": "环境配置记录/代码复现记录/Learning High-Speed Flight in the Wild 环境安装.md"
               }
             }
           }
@@ -197,13 +172,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "13140382243e47da",
+  "active": "7bc36a5010f53ef6",
   "lastOpenFiles": [
-    "日常指令等收藏/ubuntu的快捷指令/cuda相关深度学习环境配置/cuda cudnn卸载.md",
+    "日常指令等收藏/conda记录/conda使用的一些指令记录.md",
+    "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/系统部分环境搭建.md",
+    "环境配置记录/代码复现记录/Learning High-Speed Flight in the Wild 环境安装.md",
     "日常指令等收藏/ubuntu的快捷指令/cuda相关深度学习环境配置/cuda11 cudnn8安装.md",
+    "日常指令等收藏/conda记录",
+    "日常指令等收藏/未命名.md",
+    "日常指令等收藏/ubuntu的快捷指令/cuda相关深度学习环境配置/cuda cudnn卸载.md",
     "官网.md",
     "日常指令等收藏/ubuntu的快捷指令/cuda相关深度学习环境配置",
-    "环境配置记录/代码复现记录/Learning High-Speed Flight in the Wild 环境安装.md",
     "环境配置记录/无人机仿真相关/连接px4仿真指令.md",
     "环境配置记录/代码复现记录",
     "环境配置记录/无人机仿真相关/日志查看.md",
@@ -211,7 +190,6 @@
     "环境配置记录/无人机仿真相关/gazebo的环境配置.md",
     "深度学习记录/代码记录.md",
     "2024-06-12.md",
-    "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/系统部分环境搭建.md",
     "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/nvidia-smi安装失效.md",
     "日常指令等收藏/github记录/上传记录.md",
     "日常指令等收藏/github记录/git文档摘要.md",
@@ -233,12 +211,9 @@
     "日常指令等收藏/github记录/个人全局环境配置.md",
     "日常指令等收藏/ros操作相关/Rviz 电影摄影师.md",
     "日常指令等收藏/github记录",
-    "日常指令等收藏/ros操作相关/未命名 1.md",
     "日常指令等收藏/ros操作相关",
     "深度学习记录",
-    "日常指令等收藏/vscode的配置/settings.json.md",
     "环境配置记录",
-    "日常指令等收藏/vscode的配置",
-    "日常指令等收藏/ubuntu的快捷指令"
+    "日常指令等收藏/vscode的配置"
   ]
 }

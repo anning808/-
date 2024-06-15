@@ -10,13 +10,17 @@ https://github.com/uzh-rpg/agile_autonomy
 
 [论文学习--Learning High-Speed Flight in the Wild-CSDN博客](https://blog.csdn.net/wxm__/article/details/121220816 "论文学习--Learning High-Speed Flight in the Wild-CSDN博客")
 
-### 前期准备中，官方github中缺少的部分：
-
-按照官方步骤走，需要再安装open3d等库，以及对python3版本限制等。同时显卡和tensflow版本什么的都需要对应好，有些注意点对于小白并不友好。
-
+## 概述：
+按照官方步骤走，先把官方的安装完，需要再安装open3d等库，以及对python3版本限制等。同时显卡和tensflow版本什么的都需要对应好，有些注意点对于小白并不友好。
 在ubuntu18和20都安装了几遍，有一定的经验。建议还是ubuntu20安装。为了安装好能正确运行避免重装，最好确定好cuda版本之后再开始安装。
+为了简单起见，下方整理一个笔者自己完整的安装方式。
+
+
 
 我遇见的几个问题直接放在最后。
+
+本机环境
+ubuntu20   cuda11.1 cudnn8.0.5 
 ##### 先安装Open3D
 源码安装C++版本的open3D， v0.9.0. 看完git的issue中最终选择比较稳定版本。装过其他版本，要改很多路径。为了直接能用
 
@@ -234,6 +238,67 @@ prefix: /home/b/anaconda3/envs/tf_24
 conda env create -f environment.yml
 ```
 理论上编译和环境就都完成了。
+
+conda环境2
+也可以按照官方方法建立conda，但是要改几个内容
+```
+conda create --name tf_24 python=3.7.3
+conda activate tf_24
+pip install tensorflow-gpu==2.4
+pip  install pycocotools
+pip install rospkg==1.2.3 pyquaternion open3d opencv-python
+```
+### Step-by-Step Procedure
+
+[](https://github.com/uzh-rpg/agile_autonomy#step-by-step-procedure)
+
+Use the following commands to create a new catkin workspace and a virtual environment with all the required dependencies.
+
+```shell
+export ROS_VERSION=noetic
+mkdir agile_autonomy_ws
+cd agile_autonomy_ws
+export CATKIN_WS=./catkin_aa
+mkdir -p $CATKIN_WS/src
+cd $CATKIN_WS
+catkin init
+catkin config --extend /opt/ros/$ROS_VERSION
+catkin config --merge-devel
+catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-fdiagnostics-color
+cd src
+
+git clone git@github.com:uzh-rpg/agile_autonomy.git
+vcs-import < agile_autonomy/dependencies.yaml
+cd rpg_mpl_ros
+git submodule update --init --recursive
+
+#install extra dependencies (might need more depending on your OS)
+sudo apt-get install libqglviewer-dev-qt5
+
+# Install external libraries for rpg_flightmare
+sudo apt install -y libzmqpp-dev libeigen3-dev libglfw3-dev libglm-dev
+
+# Install dependencies for rpg_flightmare renderer
+sudo apt install -y libvulkan1 vulkan-utils gdb
+
+# Add environment variables (Careful! Modify path according to your local setup)
+echo 'export RPGQ_PARAM_DIR=/home/<path/to/>catkin_aa/src/rpg_flightmare' >> ~/.bashrc
+```
+
+Now open a new terminal and type the following commands.
+
+```shell
+# Build and re-source the workspace
+catkin build
+. ../devel/setup.bash
+
+# Create your learning environment
+roscd planner_learning
+conda create --name tf_24 python=3.7
+conda activate tf_24
+pip install tensorflow-gpu==2.4
+pip install rospkg==1.2.3 pyquaternion open3d opencv-python
+```
 ## Let's Fly!
 
 [](https://github.com/uzh-rpg/agile_autonomy#lets-fly)
@@ -260,3 +325,6 @@ python test_trajectories.py --settings_file=config/test_settings.yaml
 
 # 运行 test_trajectories.py 时，“PlanLearning”对象没有属性“XXX”
 基本上就是 cuda cudnn没配置好 要和机子显卡还有tensflow对应 -需要重新改。 
+
+# typing-extensions版本有个错误 
+pip3 install pycocotools  安装完就好了
