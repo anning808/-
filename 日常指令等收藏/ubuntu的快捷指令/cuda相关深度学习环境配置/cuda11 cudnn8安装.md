@@ -59,11 +59,16 @@ Please make sure that
  -   PATH includes /usr/local/cuda-11.0/bin
  -   LD_LIBRARY_PATH includes /usr/local/cuda-11.0/lib64, or, add /usr/local/cuda-11.0/lib64 to /etc/ld.so.conf and run ldconfig as root
 
-To uninstall the CUDA Toolkit, run cuda-uninstaller in /usr/local/cuda-11.0/bin
 
-Please see CUDA_Installation_Guide_Linux.pdf in /usr/local/cuda-11.0/doc/pdf for detailed information on setting up CUDA.
-***WARNING: Incomplete installation! This installation did not install the CUDA Driver. A driver of version at least .00 is required for CUDA 11.0 functionality to work.
-To install the driver using this installer, run the following command, replacing <CudaInstaller> with the name of this run file:
-    sudo <CudaInstaller>.run --silent --driver
+## 快速测试（自己创建的base环境下）
 
-Logfile is /var/log/cuda-installer.log
+python
+```
+import tensorflow as tf
+print(tf.__version__)
+print('GPU', tf.test.is_gpu_available())
+输出True就没有问题了
+tf.config.list_physical_devices()
+```
+
+列出可用设备，查看是否有GPU
