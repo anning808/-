@@ -1,5 +1,8 @@
 {
   "showLineNumber": false,
   "spellcheck": false,
-  "autoPairBrackets": false
+  "autoPairBrackets": false,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "absolute",
+  "attachmentFolderPath": "资源/图片"
 }
