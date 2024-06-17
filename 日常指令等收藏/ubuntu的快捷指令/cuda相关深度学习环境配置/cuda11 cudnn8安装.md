@@ -19,7 +19,7 @@ sudo ln -s /usr/local/cuda-11.1 /usr/local/cuda
 然后，需要登录，选择Sign in（如已有帐号自动忽略）  
 注册后，打开页面：
 ```
-sudo dpkg -i libcudnn8_8.0.5.39-1+cuda11.1_amd64.deb                       sudo sudo dpkg -i libcudnn8-dev_8.0.5.39-1+cuda11.1_amd64.deb
+sudo dpkg -i libcudnn8_8.0.5.39-1+cuda11.1_amd64.deb                       sudo dpkg -i libcudnn8-dev_8.0.5.39-1+cuda11.1_amd64.deb
 sudo dpkg -i libcudnn8-samples_8.0.5.39-1+cuda11.1_amd64.deb
 ```
 确认cudnn安装成功
@@ -46,3 +46,21 @@ make clean && make
 ```
 cat /usr/local/cuda/include/cudnn_version.h | grep CUDNN_MAJOR -A  2
 ```
+
+
+Driver:   Not Selected
+Toolkit:  Installed in /usr/local/cuda-11.0/
+Samples:  Installed in /home/b/
+
+Please make sure that
+ -   PATH includes /usr/local/cuda-11.0/bin
+ -   LD_LIBRARY_PATH includes /usr/local/cuda-11.0/lib64, or, add /usr/local/cuda-11.0/lib64 to /etc/ld.so.conf and run ldconfig as root
+
+To uninstall the CUDA Toolkit, run cuda-uninstaller in /usr/local/cuda-11.0/bin
+
+Please see CUDA_Installation_Guide_Linux.pdf in /usr/local/cuda-11.0/doc/pdf for detailed information on setting up CUDA.
+***WARNING: Incomplete installation! This installation did not install the CUDA Driver. A driver of version at least .00 is required for CUDA 11.0 functionality to work.
+To install the driver using this installer, run the following command, replacing <CudaInstaller> with the name of this run file:
+    sudo <CudaInstaller>.run --silent --driver
+
+Logfile is /var/log/cuda-installer.log
