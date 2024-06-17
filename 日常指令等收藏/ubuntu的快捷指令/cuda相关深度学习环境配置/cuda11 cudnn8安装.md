@@ -1,4 +1,6 @@
-cuda安装：
+
+tensflow的cuda cudnn对照表https://blog.csdn.net/ly869915532/article/details/124542362
+## cuda安装：
 直接[官网](https://developer.nvidia.com/cuda-toolkit-archive)下载对应安装包，使用sudo sh 安装.run的包就好
 安装完添加环境，格式如下/////记得换地址。
 ```shell

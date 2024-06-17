@@ -20,7 +20,7 @@ https://github.com/uzh-rpg/agile_autonomy
 我遇见的几个问题直接放在最后。
 
 本机环境
-ubuntu20   cuda11.1 cudnn8.0.5 
+ubuntu20   cuda11.2 cudnn8.0.5 
 ##### 先安装Open3D
 源码安装C++版本的open3D， v0.9.0. 看完git的issue中最终选择比较稳定版本。装过其他版本，要改很多路径。为了直接能用
 
