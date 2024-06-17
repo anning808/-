@@ -339,3 +339,31 @@ conda install cudnn -c conda-forge
 pip install tensorflow-gpu==2.4
 pip install rospkg==1.2.3 pyquaternion open3d opencv-python pyyaml
 ```
+
+
+installing the package 'python3-empy'
+ｃｏｎｄａ　里面编译在
+sudo apt install python3-empy 之后还报错，那么就是默认使用ｐｙｔｈｏｎ２了
+使用下述方法切换优先级
+```
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 100
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 150 
+```
+```
+pip uninstall em
+pip install empy==3.3.4
+```
+#### 有个　ｎｕｍｐｙ_eignt错误
+```
+error: return-statement with a value, in function returning 'void' [-fpermissive]  
+#define import_array() {if (_import_array() < 0) {PyErr_Print(); PyErr_SetString(PyExc_ImportError, "numpy.core.multiarray failed to import"); return NULL; } }  
+^  
+/home/b/projects/7guihua/agile_autonomy_wsnew/catkin_aa/src/numpy_eigen/src/autogen_module/numpy_eigen_export_module.cpp:258:2: note: in expansion of macro ‘import_array’  
+import_array();
+```
+numpy_eigen_export_module.cpp的第三行加一句：
+```
+#define import_array() {if (_import_array() < 0) {PyErr_Print(); PyErr_SetString(PyExc_ImportError, "numpy.core.multiarray failed to import"); return; } }
+```
+
+pip install PySide2　PyQt5
