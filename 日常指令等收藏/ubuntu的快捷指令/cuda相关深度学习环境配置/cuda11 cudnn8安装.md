@@ -11,8 +11,8 @@ export CUDA_HOME=$CUDA_HOME:/usr/local/cuda
 ```
 为了避免软链接和设置的不一样，导致后续编译和使用的环境冲突，统一使用软链接。
 ```
-sudo rm -rf 
-sudo ln -s /usr/local/cuda-11.1 /usr/local/cuda
+sudo rm -rf /usr/local/cuda
+sudo ln -s /usr/local/cuda-11.2 /usr/local/cuda
 ```
 ## 第二步 ：Cudnn8.05的安装
 
