@@ -289,7 +289,7 @@ Now open a new terminal and type the following commands.
 
 ```shell
 # Build and re-source the workspace
-catkin build
+catkin build -DPYTHON_EXECUTABLE=/usr/bin/python3
 . ../devel/setup.bash
 
 # Create your learning environment

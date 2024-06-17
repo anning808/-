@@ -8,6 +8,7 @@ sudo ./cuda-uninstaller
 
 选择done，提示Successfully uninstalled 完成卸载
 ## 二、卸载cudnn
+### 使用ｄｅｂ安装的
 查询：
 ```
 sudo dpkg -l | grep cudnn
@@ -21,7 +22,10 @@ sudo dpkg -r libcudnn8-samples
 sudo dpkg -r libcudnn8-dev
 sudo dpkg -r libcudnn8
 ```
+### 使用ｔｇｚ安装的
+`sudo` `rm` `-rf` `/usr/local/cuda/include/cudnn``.h`
 
+`sudo` `rm` `-rf` `/usr/local/cuda/lib64/libcudnn``*`
 检查：
 输入下面指令后，没有任何输出即卸载成功。
 ```
