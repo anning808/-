@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日常指令等收藏/ubuntu的快捷指令/cuda相关深度学习环境配置/cuda cudnn卸载.md",
+                "file": "环境配置记录/代码复现记录/Learning High-Speed Flight in the Wild 环境安装.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日常指令等收藏/ubuntu的快捷指令/cuda相关深度学习环境配置/cuda cudnn卸载.md",
+                "file": "环境配置记录/代码复现记录/Learning High-Speed Flight in the Wild 环境安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日常指令等收藏/ubuntu的快捷指令/cuda相关深度学习环境配置/cuda cudnn卸载.md",
+                "file": "环境配置记录/代码复现记录/Learning High-Speed Flight in the Wild 环境安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日常指令等收藏/ubuntu的快捷指令/cuda相关深度学习环境配置/cuda cudnn卸载.md"
+                "file": "环境配置记录/代码复现记录/Learning High-Speed Flight in the Wild 环境安装.md"
               }
             }
           }
@@ -162,8 +162,8 @@
   },
   "active": "13140382243e47da",
   "lastOpenFiles": [
-    "日常指令等收藏/ubuntu的快捷指令/cuda相关深度学习环境配置/cuda11 cudnn8安装.md",
     "日常指令等收藏/ubuntu的快捷指令/cuda相关深度学习环境配置/cuda cudnn卸载.md",
+    "日常指令等收藏/ubuntu的快捷指令/cuda相关深度学习环境配置/cuda11 cudnn8安装.md",
     "环境配置记录/代码复现记录/Learning High-Speed Flight in the Wild 环境安装.md",
     "日常指令等收藏/ubuntu的快捷指令/cuda相关深度学习环境配置/tensflow安装.md",
     "日常指令等收藏/ubuntu的快捷指令/设置 gcc 和 g++ 的优先级.md",

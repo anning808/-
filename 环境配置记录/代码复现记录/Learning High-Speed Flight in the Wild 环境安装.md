@@ -327,4 +327,15 @@ python test_trajectories.py --settings_file=config/test_settings.yaml
 基本上就是 cuda cudnn没配置好 要和机子显卡还有tensflow对应 -需要重新改。 
 
 # typing-extensions版本有个错误 
-pip3 install pycocotools  安装完就好了
+ｐｉｐ　里面几个一起装
+
+
+## 别人安装方案１
+```
+conda activate tf24
+# So far cuda11 isn't included in conda , so it must be added "-c conda-forge", which is not needed in the future
+conda install cudatoolkit=11.1 -c conda-forge
+conda install cudnn -c conda-forge
+pip install tensorflow-gpu==2.4
+pip install rospkg==1.2.3 pyquaternion open3d opencv-python pyyaml
+```
