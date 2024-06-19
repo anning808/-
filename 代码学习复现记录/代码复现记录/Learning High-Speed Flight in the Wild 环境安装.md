@@ -366,4 +366,4 @@ numpy_eigen_export_module.cpp的第三行加一句：
 #define import_array() {if (_import_array() < 0) {PyErr_Print(); PyErr_SetString(PyExc_ImportError, "numpy.core.multiarray failed to import"); return; } }
 ```
 
-pip install PySide2　PyQt5
+pip install PySide2 PyQt5
