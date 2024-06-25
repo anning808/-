@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日常指令等收藏/ros操作相关/从bag文件中读取消息.md",
+                "file": "日常指令等收藏/部分软件安装/cloudcompare安装.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日常指令等收藏/ros操作相关/从bag文件中读取消息.md",
+                "file": "日常指令等收藏/部分软件安装/cloudcompare安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日常指令等收藏/ros操作相关/从bag文件中读取消息.md",
+                "file": "日常指令等收藏/部分软件安装/cloudcompare安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日常指令等收藏/ros操作相关/从bag文件中读取消息.md"
+                "file": "日常指令等收藏/部分软件安装/cloudcompare安装.md"
               }
             }
           }
@@ -162,15 +162,19 @@
   },
   "active": "13140382243e47da",
   "lastOpenFiles": [
-    "日常指令等收藏/ros操作相关/rosbag回放.md",
+    "代码学习复现记录/代码复现记录/Learning High-Speed Flight in the Wild 环境安装.md",
+    "日常指令等收藏/部分软件安装/cloudcompare安装.md",
+    "日常指令等收藏/部分软件安装",
+    "论文阅读记录/无人机规划/Minimum Snap轨迹规划详解.md",
+    "日常指令等收藏/ubuntu的快捷指令/ubuntu中kazam视频格式转换.md",
     "日常指令等收藏/ros操作相关/从bag文件中读取消息.md",
+    "日常指令等收藏/ros操作相关/rosbag回放.md",
     "日常指令等收藏/ros操作相关/坐标转换ｔｆ.md",
     "日常指令等收藏/ros操作相关/ROS：*.bag.active恢复.md",
     "日常指令等收藏/github记录/上传记录.md",
     "日常指令等收藏/github记录/git文档摘要.md",
     "代码学习复现记录/代码复现记录/px4_pid_controll.md",
     "代码学习复现记录/c++/C++ this 指针.md",
-    "代码学习复现记录/代码复现记录/Learning High-Speed Flight in the Wild 环境安装.md",
     "代码学习复现记录/c++",
     "代码学习复现记录/未命名.md",
     "日常指令等收藏/ubuntu的快捷指令/cuda相关深度学习环境配置/cuda cudnn卸载.md",
@@ -179,7 +183,6 @@
     "日常指令等收藏/ubuntu的快捷指令/设置 gcc 和 g++ 的优先级.md",
     "日常指令等收藏/conda记录/conda使用的一些指令记录.md",
     "深度学习记录/代码记录.md",
-    "论文阅读记录/无人机规划/Minimum Snap轨迹规划详解.md",
     "资源/图片/Pasted image 20240615165057.png",
     "资源/图片/Pasted image 20240615164700.png",
     "资源/图片/Pasted image 20240615164610.png",
@@ -203,10 +206,7 @@
     "代码学习复现记录/无人机仿真相关/连接px4仿真指令.md",
     "代码学习复现记录/代码复现记录",
     "代码学习复现记录/无人机仿真相关/px4开发环境配置.md",
-    "代码学习复现记录/无人机仿真相关/gazebo的环境配置.md",
-    "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/nvidia-smi安装失效.md",
     "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/pic/Pasted image 20240612142318.png",
-    "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/pic",
     "日常指令等收藏/ubuntu的快捷指令/ubuntu20 zhuangji/pic/Pasted image 20240612142330.png"
   ]
 }
